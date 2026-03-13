@@ -1,0 +1,20 @@
+<!doctype html>
+	<html>
+		<head>
+			<title>timer</title>
+			<script type="text/javascript">
+			   var sec=10
+			   function f1()
+			   {
+			      sec=sec-1;
+			     document.getElementById('i1').innerHTML=sec;
+			      setTimeout(f1,1000)
+				  }
+			
+			</script>
+		</head>
+		<body>
+		   <h1 align="center" id="i1"> 10 </h1>
+		   <button onclick="f1()">Start</button>
+		</body>
+	</html>
